@@ -388,7 +388,7 @@ namespace ECommSystem
 
                 pkg.SaveAs(new FileInfo(path));
                 MessageBox.Show($"Sales report exported to:\n{path}", "Export Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                // TryOpenFile(path);
+                TryOpenFile(path);
             }
             catch (Exception ex) { MessageBox.Show("Export error:\n" + ex.Message); }
         }
@@ -439,7 +439,7 @@ namespace ECommSystem
 
                 pkg.SaveAs(new FileInfo(path));
                 MessageBox.Show($"Inventory report exported to:\n{path}", "Export Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                // TryOpenFile(path);
+                TryOpenFile(path);
             }
             catch (Exception ex) { MessageBox.Show("Export error:\n" + ex.Message); }
         }
@@ -491,7 +491,7 @@ namespace ECommSystem
 
                 pkg.SaveAs(new FileInfo(path));
                 MessageBox.Show($"User activity report exported to:\n{path}", "Export Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                // TryOpenFile(path);
+                TryOpenFile(path);
             }
             catch (Exception ex) { MessageBox.Show("Export error:\n" + ex.Message); }
         }
