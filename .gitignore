@@ -1,0 +1,48 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio / IDE files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / ReSharper
+*.sln.iml
+_ReSharper*/
+*.DotSettings.user
+
+# VS Code workspace state
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Windows thumbnail and cache files
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# NuGet packages and caches
+packages/
+*.nupkg
+
+# Test and coverage artifacts
+TestResults/
+CoverageReport/
+*.coverage
+*.coveragexml
+
+# Publish output
+publish/
+
+# Local database exports or backups
+*.bak
+*.sql-bak
